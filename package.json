@@ -1,0 +1,17 @@
+{
+  "name": "bahia-palace-booking",
+  "version": "1.0.0",
+  "description": "Ticket booking app: date selection, PayPal checkout, automatic e-ticket delivery from a stock folder, admin dashboard.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node scripts/demo.js",
+    "sample-tickets": "node scripts/sample-tickets.js",
+    "test": "node test/run-tests.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "UNLICENSED"
+}

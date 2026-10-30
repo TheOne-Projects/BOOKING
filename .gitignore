@@ -1,0 +1,11 @@
+# secrets and runtime data — never commit these
+.env
+data/
+demo/
+tickets/stock/**
+tickets/reserved/
+tickets/sold/
+tickets/removed/
+tickets-sandbox/
+node_modules/
+.DS_Store
